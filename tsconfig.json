@@ -15,7 +15,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@app/*": [
+        "src/app/*"
+      ],
+      "@angular/*": ["./node_modules/@angular/*"],
+      "@environments/*": [
+        "src/environments/*"
+      ]}
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false

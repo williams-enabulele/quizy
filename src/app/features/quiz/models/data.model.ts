@@ -1,4 +1,3 @@
-
 export interface Data {
   response_code: number;
   results : {
